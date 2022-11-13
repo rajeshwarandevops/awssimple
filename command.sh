@@ -1,10 +1,11 @@
+terraform init
 
-terraform fmt ---recursive
-
-sleep 05
+terraform fmt --recursive
 
 terraform plan
 
+terraform apply
 
-terraform apply 
+# terraform apply --auto-approve -y 
+ 
 
